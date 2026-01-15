@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        form {
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            margin: 50px auto;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 7px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 8px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <h2>Student Registration</h2>
+
+        <!-- Name -->
+        <label>Full Name:</label>
+        <input type="text" required placeholder="Enter your name">
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" required placeholder="Enter your email">
+
+        <!-- Age -->
+        <label>Age:</label>
+        <input type="number" required min="1" max="100" placeholder="Enter your age">
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
